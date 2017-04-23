@@ -23,17 +23,17 @@ int main(void)
     /* Replace with your application code */
     while (1) 
     {
-		data = adc_read(0);
-		if(data>800)
+		data = adc_read(_);
+		if(data>___)
 			uart_transmit('w');
-		else if (data<300)
+		else if (data<___)
 			uart_transmit('s');
 		else
 		{
-			data = adc_read(1);
-			if(data>800)
+			data = adc_read(_);
+			if(data>___)
 				uart_transmit('d');
-			else if (data<300)
+			else if (data<___)
 				uart_transmit('a');
 			else
 				uart_transmit('q');
